@@ -1,0 +1,196 @@
+body header, ul li ul li, ul.flex li {
+    display: inline-flex;
+}
+article #Compétences p,
+article #Expérience p,
+article #Formation p {
+    width: 80vw;
+    text-align: justify;
+    margin-left: 7vw;
+}
+li {
+    margin-left: 1.5vw;
+    list-style-type: none;
+}
+img.img_picto_divers {
+    width: 8vw;
+}
+body {
+    background-color: #252525;
+}
+body {
+    background-color: rgba(64, 64, 64, 1) !important;
+    color: #FAFAFA !important;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif !important;
+    text-shadow: 2px 2px 2px black;
+}
+h1 { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important; 
+    font-size: 4rem; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; } 
+h2 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    font-size: 3rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;} 
+h3 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    font-size: 2.4rem; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 700; 
+    line-height: 15.4px; } 
+p { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; } 
+blockquote { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important; 
+    font-size: 3rem; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 3rem;
+    text-align: center; } 
+pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; }
+article section h2 {
+    display: block;
+    background-color: rgba(59, 56, 56, 1);
+    height: 6vh;
+    font-variant-caps: small-caps;
+    line-height: 5.5vh;
+    padding-left: 3vw;
+}
+#Compétences h2, #Compétences h3, header address p#coord a#tel, .s4:after  {
+    color: rgba(255, 192, 0, 1);
+}
+#Expérience h2, #Expérience ul li {
+    color: rgba(0, 176, 80, 1);
+}
+#Formation h2, #Formation ul li, header address p#coord a {
+    color: rgba(0, 176, 240, 1)
+}
+#Divers h2 {
+    color: rgba(255, 255, 255, 1)
+}
+header {
+    align-content: center;
+    width: 100vw;
+    margin-top: 3vh;
+}
+hgroup {
+    width: 50vw;
+    justify-content: space-evenly;
+    display: inline-grid;
+}
+address {
+    width: 50vw;
+    display: inline-grid;
+    justify-content: space-evenly;
+}
+.s3::after{
+    content: " * * * ";
+}
+.s4::after{
+    content: " * * * * ";
+}
+.s5::after{
+    content: " * * * * * ";
+}
+.s3::after,.s5::after,.s4::after {
+    width: 12vw;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(255, 192, 0, 1);
+}
+header address p#nom {
+    font-size: 5rem;
+}
+header address p#coord a {
+    font-size: 2.54rem;
+    text-decoration: none;
+    line-height: 7vh;
+}
+header address p#adresse {
+    font-size: 3rem;
+}
+hgroup h2 {
+    font-size: 4rem;
+    color: rgb(255, 0, 144);
+}
+footer blockquote::before {
+    content: open-quote;
+    color: rgb(255, 0, 144);
+    font-size: 7em;
+}
+footer blockquote::after {
+    content: close-quote;
+    color: rgb(255, 0, 144);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: georgia,serif;
+    font-size: 7em;
+    height: .2em;
+    line-height: .8;
+}
+.container {
+    display: inline-block;
+}
+#Compétences ul{
+    padding-left: 1em;
+}
+.texte_boite {
+    margin-left: 1.5vw;
+    min-width: 14vw;
+    display: flex;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    margin-right: 3vw;
+}
+.flex-colonne{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 3vw;
+}
+.divers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 3vw;
+    margin-bottom: 2vh;
+    width: 27vw;
+}   
+footer {
+    margin-top: 4vh;
+}
+#langue.container{
+    height: 1vh ;
+}
+.divers p {
+    margin-left: 2vw;
+}
