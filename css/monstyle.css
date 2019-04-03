@@ -1,8 +1,8 @@
 body header, ul li ul li, ul.flex li {
     display: inline-flex;
 }
-article #Compétences p,
-article #Expérience p,
+article #Competences p,
+article #Experience p,
 article #Formation p {
     width: 80vw;
     text-align: justify;
@@ -72,10 +72,10 @@ article section h2 {
     line-height: 5.5vh;
     padding-left: 3vw;
 }
-#Compétences h2, #Compétences h3, header address p#coord a#tel, .s4:after  {
+#Competences h2, #Competences h3, header address p#coord a#tel, .s4:after  {
     color: rgba(255, 192, 0, 1);
 }
-#Expérience h2, #Expérience ul li {
+#Experience h2, #Experience ul li {
     color: rgba(0, 176, 80, 1);
 }
 #Formation h2, #Formation ul li, header address p#coord a {
@@ -148,7 +148,7 @@ footer blockquote::after {
 .container {
     display: inline-block;
 }
-#Compétences ul{
+#Competences ul{
     padding-left: 1em;
 }
 .texte_boite {
